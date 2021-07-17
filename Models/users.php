@@ -81,9 +81,11 @@ function findUserAndCheckPassword(string $email, string $password)
         $mysqli->close();
         return false;
     }
+
+    // print_r($user);
  
     // パスワードチェック
-    if (!password_verify($password, $user['password'])) {
+    if (!password_verify($password, $user['PASSWORD'])) {
         // パスワード不一致
         $mysqli->close();
         return false;

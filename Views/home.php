@@ -48,5 +48,5 @@
  
     <?php include_once('../Views/common/foot.php'); ?>
 </body>
-
+ 
 </html>
