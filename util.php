@@ -7,7 +7,7 @@
  * 画像ファイル名から画像のURLを生成
  *
  * @param string $name 画像ファイル名
- * @param string $type ユーザー画像かツイート画像
+ * @param string $type user | tweet
  * @return string
  */
 function buildImagePath(string $name = null, string $type)
